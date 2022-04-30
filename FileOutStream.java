@@ -8,9 +8,9 @@ public class FileOutStream {
             FileOutputStream fos=new FileOutputStream("E:/Java_codes/Java_IO_Stream/Test2.txt");
             String str="Hello , This is file 2";
             
-            // //Method 1 to write in file 
-            // fos.write(str.getBytes());
-            // fos.close();
+            //Method 1 to write in file 
+            fos.write(str.getBytes());
+            fos.close();
 
             //Method 2 
             byte[] arr=str.getBytes();
