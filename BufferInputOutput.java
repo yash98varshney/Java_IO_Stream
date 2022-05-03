@@ -16,6 +16,7 @@ public class BufferInputOutput {
         br.reset();
         System.out.println((char)br.read());
         System.out.println((char)br.read());
+        
 
         // This will read the remaing line jo bcha h 
         System.out.println(br.readLine()); 
